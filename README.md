@@ -1,114 +1,140 @@
-# 📚 Team Collaboration Guide – Week of Theoretical Work
+Here's the **updated Team Collaboration Guide** including your additions — emphasizing that this week involves *theory and some code*, and reinforcing collaboration rules for *everyone*, regardless of whether they’re submitting PDFs or code:
+
+---
+
+# 📚 Team Collaboration Guide – Week of Theoretical Work + Light Coding
+
+### 🧠 Week Theme: *The Future of AI*
+
+---
 
 ## Hey Team! 👋
 
-Welcome back, everyone! This week our work is more **theoretical** – so instead of writing code, you'll be creating and uploading **PDF reports** to our GitHub repository. 📝
+Welcome back, everyone! This week’s focus is primarily **theoretical**, but **some light code implementation** will also be required. You’ll either be:
 
-Please take a minute to read this short guide. It explains **how to prepare and push your PDF files**, and reminds you of the **essential GitHub collaboration rules** to avoid any problems with the repo. Let’s stay organized and efficient!
+* Creating and uploading **PDF reports** for your assigned theory sections, **or**
+* Writing and uploading **Colab Notebooks or Jupyter Notebooks** for short practical tasks.
+
+Let’s work smart, stay organized, and keep our repo clean and conflict-free. 👇
 
 ---
 
 ## ✅ What You Need to Do This Week
 
-1. **Write your report** in Google Docs, Microsoft Word, or WPS Office.
-2. **Export it as a PDF.** (Google Docs: `File → Download → PDF Document`)
-3. **Push the PDF to the repository** following the steps below.
+### 📘 For Theory Tasks:
+
+1. **Write your report** using Google Docs, MS Word, or WPS.
+2. **Export as a PDF.**
+3. **Push the PDF to your own branch** (see workflow below).
+
+### 💻 For Light Coding Tasks:
+
+1. Use **Google Colab**, **Jupyter Notebook**, or your preferred code editor.
+2. Implement the required code section (linked to your theoretical topic).
+3. Save your notebook as `.ipynb`.
+4. **Push your notebook to your own branch**.
 
 ---
 
-## 🚨 General GitHub Rules (Still Apply!)
+## 🚨 General GitHub Collaboration Rules (Apply to ALL Work)
 
-Please follow these rules — they're more important than ever when we’re all pushing files to the repo.
+Please follow these rules, whether you're submitting a PDF **or** code notebook:
 
 ### ❌ DO NOT:
 
-* **❌ Push directly to the `main` branch** – always use your own branch.
-* **❌ Push large files or videos without asking.**
-* **❌ Use `git push --force` on shared branches.**
+* ❌ Push directly to `main`
+* ❌ Push large files (videos, datasets) without approval
+* ❌ Use `git push --force` on shared branches
 
 ### ✅ DO:
 
-* **✅ Create your own branch** for your PDF upload.
-* **✅ Pull the latest changes** from `main` **before you start** or **before pushing**.
-* **✅ Write clear commit messages** (e.g., `"Add project overview PDF"`).
-* **✅ Push only your PDF** (not unnecessary files).
+* ✅ Create a **new branch** for each report or notebook
+* ✅ **Pull from `main`** before starting and before pushing
+* ✅ **Push only what’s needed** (PDFs or `.ipynb`, not temp files)
+* ✅ Write **clear commit messages**
 
 ---
 
-## 📦 Step-by-Step Workflow for This Week
+## 🛠️ Step-by-Step Git Workflow
 
-### 1. Clone the Repository (Only First Time)
+### 1. Clone the Repo (First-Time Only)
 
 ```bash
 git clone https://github.com/your-username/repository-name.git
 cd repository-name
 ```
 
-### 2. Always Start By Pulling the Latest Changes
+### 2. Always Pull First
 
 ```bash
 git checkout main
 git pull origin main
 ```
 
-### 3. Create Your Own Branch
+### 3. Create a New Branch for Your Work
 
 ```bash
-git checkout -b docs/your-report-title
+# For a report:
+git checkout -b docs/future-ai-kennedy
+
+# For a notebook:
+git checkout -b notebooks/ai-predictions-jane
 ```
 
-### 4. Add and Commit Your PDF
+### 4. Add and Commit
 
 ```bash
-# Copy your exported PDF into the project folder
-git add your-file.pdf
-git commit -m "Add PDF for [your topic/title]"
+git add your-file.pdf  # OR your-notebook.ipynb
+git commit -m "Add Future of AI report/notebook for [your name/topic]"
 ```
 
 ### 5. Push to GitHub
 
 ```bash
-git push origin docs/your-report-title
+git push origin docs/future-ai-kennedy  # or your branch name
 ```
 
 ### 6. Create a Pull Request
 
-* Go to GitHub → "Pull Requests" → "New Pull Request"
-* Make sure it’s from your branch **into** `main`
-* Add a short title + description of your report
-* Submit it for review
+* Go to GitHub → **Pull Requests** → **New Pull Request**
+* From **your branch** → into `main`
+* Add a meaningful title and description
+* Submit for review
 
 ---
 
-## 📂 PDF Tips
+## 📂 Naming & File Tips
 
-* Name your file clearly, e.g., `AI-Project-Ethics-Kennedy.pdf`
-* Double-check that it’s the final version before pushing
+* PDF Example: `AI-Ethics-Kennedy.pdf`
+* Notebook Example: `Future-AI-Notebook-Jane.ipynb`
 * One file = one pull request
+* Finalize before pushing!
 
 ---
 
 ## 💬 Need Help?
 
-If you're stuck:
-
-* Ping me on Slack/Discord/WhatsApp
-* Or create an Issue in GitHub
-* We're here to help each other!
+* Message on Slack/WhatsApp/Discord
+* Create a GitHub issue
+* Ask in team check-ins
 
 ---
 
-## 🚀 Final Reminder
+## ✅ Final Reminders for ALL:
 
-Let’s keep things smooth and clean this week by:
-
-* **NOT pushing to `main`**
-* **Creating branches for your work**
-* **Pulling before pushing**
-* **Writing clear commit messages**
-
-Thanks for being awesome! Let’s finish this theoretical week strong and tidy. 💪📘
+✔ Do **NOT** push to `main`
+✔ Create **your own branch**
+✔ **Pull** before you **push**
+✔ **Write clear commit messages**
+✔ Keep file sizes minimal
+✔ PDF or code – **rules apply to everyone**
 
 ---
 
+Thanks for staying sharp and collaborative! Let’s make this **“Future of AI”** week smooth, thoughtful, and productive 💡🤖📘
 
+Let’s go! 🚀
+
+---
+
+Let me know if you’d like this version saved as a downloadable `README.md` or PDF for the team.
