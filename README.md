@@ -1,6 +1,4 @@
-Here's the **updated Team Collaboration Guide** including your additions — emphasizing that this week involves *theory and some code*, and reinforcing collaboration rules for *everyone*, regardless of whether they’re submitting PDFs or code:
 
----
 
 # 📚 Team Collaboration Guide – Week of Theoretical Work + Light Coding
 
@@ -135,6 +133,3 @@ Thanks for staying sharp and collaborative! Let’s make this **“Future of AI�
 
 Let’s go! 🚀
 
----
-
-Let me know if you’d like this version saved as a downloadable `README.md` or PDF for the team.
